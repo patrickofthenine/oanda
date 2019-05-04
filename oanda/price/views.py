@@ -5,6 +5,5 @@ import os
 # Create your views here.
 
 def index(request):
-	print('here', os.getcwd())
 	resp = render(request, "price.html")
 	return resp
